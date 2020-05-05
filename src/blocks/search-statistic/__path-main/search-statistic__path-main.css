@@ -1,0 +1,15 @@
+.search-statistic__path-main {
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  margin: 0;
+}
+
+@media (max-width: 320px) {
+  .search-statistic__path-main {
+    display: none;
+  }
+}

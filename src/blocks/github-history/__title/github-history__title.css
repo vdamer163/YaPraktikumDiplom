@@ -1,0 +1,7 @@
+@media (max-width: 320px) {
+  .github-history__title {
+    line-height: 40px;
+    padding-top: 24px;
+    padding-bottom: 11px;
+  }
+}

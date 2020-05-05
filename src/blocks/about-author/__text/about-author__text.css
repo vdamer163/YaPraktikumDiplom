@@ -1,0 +1,25 @@
+.about-author__text {
+  max-width: 600px;
+  margin: 0;
+  padding-top: 131px;
+}
+
+@media (max-width: 1224px) {
+  .about-author__text {
+    padding-top: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-author__text {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 320px) {
+  .about-author__text {
+    padding-top: 24px;
+    max-width: 288px;
+    margin: 0 auto;
+  }
+}

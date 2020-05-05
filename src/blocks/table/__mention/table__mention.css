@@ -1,0 +1,41 @@
+.table__mention {
+  flex-basis: 90%;
+}
+
+@media (max-width: 1248px) {
+  .table__mention {
+    flex-basis: 82%;
+  }
+}
+
+@media (max-width: 786px) {
+  .table__mention {
+    flex-basis: 81%;
+  }
+}
+
+@media (max-width: 768px) {
+  .table__mention {
+    flex-basis: 82%;
+    padding-left: 14px;
+  }
+}
+
+@media (max-width: 736px) {
+  .table__mention {
+    flex-basis: 78%;
+  }
+}
+
+@media (max-width: 448px) {
+  .table__mention {
+    flex-basis: 72%;
+  }
+}
+
+
+@media (max-width: 320px) {
+  .table__mention {
+    flex-basis: 72%;
+  }
+}

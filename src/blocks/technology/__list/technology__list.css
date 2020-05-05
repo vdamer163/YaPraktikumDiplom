@@ -1,0 +1,43 @@
+.technology__list {
+  padding-right: 216px;
+  padding-top: 93px;
+}
+
+@media (max-width: 1400px) {
+  .technology__list {
+    padding-right: 16%;
+  }
+}
+
+@media (max-width: 846px) {
+  .technology__list {
+    padding-right: 5%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .technology__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 56px;
+    padding-top: 0;
+    width: 100%;
+
+  }
+}
+
+@media (max-width: 550px) {
+  .technology__list {
+    flex-wrap: wrap;
+    padding-right: 27px;
+  }
+}
+
+@media (max-width: 320px) {
+  .technology__list {
+    flex-wrap: wrap;
+    padding-right: 27px;
+  }
+}

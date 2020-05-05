@@ -1,0 +1,31 @@
+.search-card__subtitle {
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1a1b22;
+  margin: 0 auto;
+  width: 89%;
+}
+
+@media (max-width: 768px) {
+
+  .search-card__subtitle {
+    padding-top: 10px;
+    height: 88px;
+    width: 192px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .search-card__subtitle {
+    width: 256px;
+    padding-top: 8px;
+  }
+}

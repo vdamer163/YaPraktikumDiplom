@@ -1,0 +1,25 @@
+@import url(__header/search-result__header.css);
+@import url(__title/search-result__title.css);
+@import url(__analytic-text/search-result__analytic-text.css);
+@import url(__analytic-arrow/search-result__analytic-arrow.css);
+@import url(__analytic/search-result__analytic.css);
+@import url(__list/search-result__list.css);
+@import url(__button/search-result__button.css);
+
+.search-result {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f5f6f7;
+
+  display: none;
+  position: relative;
+}
+
+@media (max-width: 320px) {
+  .search-result {
+    max-height: none;
+  }
+}

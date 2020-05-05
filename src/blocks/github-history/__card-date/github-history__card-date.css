@@ -1,0 +1,17 @@
+.github-history__card-date {
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+  color: #b6bcbf;
+  margin: 0;
+  padding-bottom: 16px;
+}
+
+@media (max-width: 320px) {
+  .github-history__card-date {
+    padding-bottom: 11px;
+  }
+}

@@ -1,0 +1,12 @@
+.table__histogram {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 4px;
+}
+
+@media (max-width: 320px) {
+  .table__histogram {
+    padding-top: 18px;
+  }
+}

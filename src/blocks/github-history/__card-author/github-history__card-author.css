@@ -1,0 +1,6 @@
+.github-history__card-author {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+
+}

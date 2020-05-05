@@ -1,0 +1,16 @@
+@import url(__text/loading__text.css);
+@import url(__not-found/loading__not-found.css);
+@import url(__not-found-logo/loading__not-found-logo.css);
+@import url(__title/loading__title.css);
+@import url(__subtitle/loading__subtitle.css);
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  background: #f5f6f7;
+  display: none;
+}
+

@@ -1,0 +1,25 @@
+@import url(__title/statistic-day__title.css);
+
+
+.statistic-day {
+  padding: 80px 104px 80px 104px;
+  background: #f5f6f7;
+}
+
+@media (max-width: 768px) {
+  .statistic-day {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 448px) {
+  .statistic-day {
+    padding: 24px 16px 36px;
+  }
+}
+
+@media (max-width: 320px) {
+  .statistic-day {
+    padding: 24px 16px 36px;
+  }
+}

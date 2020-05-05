@@ -1,0 +1,23 @@
+.header__logo {
+  font-family: robotoslab, sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  margin: 0;
+  padding-left: 104px;
+}
+
+@media (max-width: 768px) {
+  .header__logo {
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 483px) {
+  .header__logo {
+    font-size: 16px;
+    padding-left: 16px;
+  }
+}

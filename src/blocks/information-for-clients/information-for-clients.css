@@ -1,0 +1,21 @@
+@import url(__text/information-for-clients__text.css);
+@import url(__title/information-for-clients__title.css);
+
+.information-for-clients {
+  padding-top: 80px;
+  margin: 0 auto;
+  width: 86%;
+}
+
+@media (max-width: 768px) {
+  .information-for-clients {
+    width: 90%;
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .information-for-clients {
+    padding-top: 21px;
+  }
+}

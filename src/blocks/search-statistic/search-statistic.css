@@ -1,0 +1,31 @@
+@import url(__title/search-statistic__title.css);
+@import url(__mention/search-statistic__mention.css);
+@import url(__mention-number/search-statistic__mention-number.css);
+@import url(__news/search-statistic__news.css);
+@import url(__news-number/search-statistic__news-number.css);
+@import url(__path-main/search-statistic__path-main.css);
+@import url(__path-statistic/search-statistic__path-statistic.css);
+@import url(__request/search-statistic__request.css);
+
+
+.search-statistic {
+  padding-left: 104px;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+@media (max-width: 768px) {
+  .search-statistic {
+    padding-left: 40px;
+    padding-top: 32px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 320px) {
+  .search-statistic {
+    padding-left: 16px;
+    padding-top: 17px;
+    padding-bottom: 24px;
+  }
+}

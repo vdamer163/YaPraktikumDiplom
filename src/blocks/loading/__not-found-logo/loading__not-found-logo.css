@@ -1,0 +1,20 @@
+.loading__not-found-logo {
+  margin: 0 auto;
+  padding-top: 81px;
+  padding-bottom: 23px;
+}
+
+@media (max-width: 768px) {
+  .loading__not-found-logo {
+    padding-top: 30px;
+    padding-bottom: 12px;
+
+    height: 88px;
+  }
+}
+
+@media (max-width: 320px) {
+  . {
+
+  }
+}

@@ -1,0 +1,26 @@
+.loading__subtitle {
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+  color: #b6bcbf;
+  margin: 0 auto;
+  padding-bottom: 80px;
+  max-width: 344px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .loading__subtitle {
+
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  . {
+
+  }
+}
