@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <title>Statistic</title>
+  <meta content="Страница Анализа новостей" name="description">
+  <meta content="HTML5, CSS, JS, WebPack" name="keywords">
+  <meta content="Дамер Виктор" name="author">
+  <link href="<%=htmlWebpackPlugin.files.chunks.statistic.css %>" rel="stylesheet">
+  <link href="<%=require('./images/favicon.png').default%>" rel="icon" type="image/png">
+</head>
+<body class="body">
+
+<div class="page">
+  <header class="header header_black-box-shadow">
+    <p class="header__logo header__logo_black-text">NewsAnalyzer</p>
+    <ul class="header__menu">
+      <li class="header__list-item">
+        <a class="header__menu-item header__menu-item_black-hover" href="./index.html">Главная</a>
+      </li>
+      <li class="header__list-item">
+        <a class="header__menu-item header__menu-item_black-hover" href="./about.html">О проекте</a>
+      </li>
+    </ul>
+  </header>
+  <section class="search-statistic">
+
+    <p class="search-statistic__path-main">Главная <span class="search-statistic__path-statistic">/ Аналитика</span>
+    </p>
+
+    <h2 class="search-statistic__title">Вы спросили: «<span class="search-statistic__request">Путешествия</span>»</h2>
+    <p class="search-statistic__news">Новостей за неделю: <span class="search-statistic__news-number">34 324</span></p>
+    <p class="search-statistic__mention">Упоминаний в загаловках: <span
+      class="search-statistic__mention-number">235</span></p>
+  </section>
+  <section class="statistic-day">
+    <h2 class="statistic-day__title">Аналитика по дням</h2>
+    <div class="table">
+      <div class="table__header">
+        <p class="table__header-data">дата<br>(<span class="table__header-month">август</span>)</p>
+        <p class="table__header-text">кол-во упоминаний</p>
+      </div>
+      <picture class="table__scale-ico">
+        <source media="(max-width: 768px)" srcset="<%=require('./images/table-count_small.svg').default%>">
+        <source type="image/webp" srcset="<%=require('./images/table-count.svg').default%>">
+        <img alt="percent scale" src="<%=require('./images/table-count.svg').default%>">
+      </picture>
+
+
+      <div class="table__histogram">
+        <p class="table__weekday table__weekday_row-one"><span class="table__data table__data_row-one">19</span>, пн</p>
+        <div class="table__mention">
+          <div class="table__mention-row table__mention-row_one">15</div>
+        </div>
+        <p class="table__weekday table__weekday_row-two"><span class="table__data table__data_row-two">20</span>, вт</p>
+        <div class="table__mention">
+          <div class="table__mention-row table__mention-row_two">18</div>
+        </div>
+        <p class="table__weekday table__weekday_row-three"><span class="table__data table__data_row-three">21</span>, ср
+        </p>
+        <div class="table__mention">
+          <div class="table__mention-row table__mention-row_three">11</div>
+        </div>
+        <p class="table__weekday table__weekday_row-four"><span class="table__data table__data_row-four">22</span>, чт
+        </p>
+        <div class="table__mention">
+          <div class="table__mention-row table__mention-row_four">39</div>
+        </div>
+        <p class="table__weekday table__weekday_row-five"><span class="table__data table__data_row-five">23</span>, пт
+        </p>
+        <div class="table__mention">
+          <div class="table__mention-row table__mention-row_five">45</div>
+        </div>
+        <p class="table__weekday table__weekday_row-six"><span class="table__data table__data_row-six">24</span>, сб</p>
+        <div class="table__mention">
+          <div class="table__mention-row table__mention-row_six">73</div>
+        </div>
+        <p class="table__weekday table__weekday_row-seven"><span class="table__data table__data_row-seven">25</span>, вс
+        </p>
+        <div class="table__mention">
+          <div class="table__mention-row table__mention-row_seven">34</div>
+        </div>
+      </div>
+      <picture class="table__scale-ico">
+        <source media="(max-width: 768px)" srcset="<%=require('./images/table-count_small.svg').default%>">
+        <source srcset="<%=require('./images/table-count.svg').default%>">
+
+        <img alt="percent scale" src="<%=require('./images/table-count.svg').default%>">
+      </picture>
+    </div>
+  </section>
+  <footer class="footer">
+    <p class="footer__copyright">&#169;2020 VDamer</p>
+    <nav class="footer__navigation">
+      <ul class="footer__menu-list">
+        <li class="footer__menu-item">
+          <a class="footer__menu-link" href="./index.html">Главная</a>
+        </li>
+        <li class="footer__menu-item">
+          <a class="footer__menu-link" href="./about.html">О проекте</a>
+        </li>
+        <li class="footer__menu-item">
+          <a class="footer__menu-link" href="https://praktikum.yandex.ru/" target="_blank">Яндекс.Практикум</a>
+        </li>
+      </ul>
+    </nav>
+    <ul class="footer__social-list">
+      <li class="footer__social-item">
+        <a class="footer__social-link" href="https://github.com/vdamer163" target="_blank">
+          <img alt="GitHub" class="footer__social-icon" src="<%=require('./images/gh_icon.svg').default%>">
+        </a>
+      </li>
+      <li class="footer__social-item">
+        <a class="footer__social-link" href="https://www.facebook.com/vdamer" target="_blank">
+          <img alt="Facebook" class="footer__social-icon" src="<%=require('./images/fb_icon.svg').default%>">
+        </a>
+      </li>
+    </ul>
+  </footer>
+</div>
+<script src="<%= htmlWebpackPlugin.files.chunks.statistic.entry %>"></script>
+</body>
+</html>

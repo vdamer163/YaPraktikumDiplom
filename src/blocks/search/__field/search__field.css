@@ -1,0 +1,29 @@
+.search__field {
+  position: relative;
+  display: flex;
+  max-width: 608px;
+  max-height: 64px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .search__field {
+    max-width: 448px;
+    max-height: 56px;
+  }
+}
+
+@media (max-width: 480px) {
+  .search__field {
+    max-width: 90%;
+    max-height: 56px;
+
+  }
+}
+
+
+@media (max-width: 320px) {
+  .search__field {
+    max-width: 288px;
+  }
+}

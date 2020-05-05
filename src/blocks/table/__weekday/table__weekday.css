@@ -1,0 +1,28 @@
+@import url(_row-seven/table__weekday_row-seven.css);
+
+
+.table__weekday {
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+
+  margin: 0;
+  width: 104px;
+  padding-bottom: 56px;
+}
+
+@media (max-width: 736px) {
+  .table__weekday {
+    width: 66px;
+    padding-bottom: 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .table__weekday {
+    width: 66px;
+    padding-bottom: 24px;
+  }
+}

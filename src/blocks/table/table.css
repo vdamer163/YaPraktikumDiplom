@@ -1,0 +1,21 @@
+@import url(__header/table__header.css);
+@import url(__header-data/table__header-data.css);
+@import url(__header-month/table__header-month.css);
+@import url(__header-text/table__header-text.css);
+@import url(__scale-ico/table__scale-ico.css);
+@import url(__histogram/table__histogram.css);
+@import url(__data/table__data.css);
+@import url(__weekday/table__weekday.css);
+@import url(__mention/table__mention.css);
+@import url(__mention-row/table__mention-row.css);
+
+
+.table {
+  padding-top: 48px;
+}
+
+@media (max-width: 320px) {
+  .table {
+    padding-top: 16px;
+  }
+}

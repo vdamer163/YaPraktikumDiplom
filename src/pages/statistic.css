@@ -1,0 +1,9 @@
+@import url(../vendor/fonts.css);
+@import url(../vendor/normalize.css);
+@import url(../blocks/body/body.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/search-statistic/search-statistic.css);
+@import url(../blocks/table/table.css);
+@import url(../blocks/statistic-day/statistic-day.css);
+@import url(../blocks/footer/footer.css);

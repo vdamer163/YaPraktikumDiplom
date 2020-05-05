@@ -1,0 +1,39 @@
+.table__scale-ico {
+  display: block;
+  padding-top: 16px;
+  padding-left: 104px;
+}
+
+
+@media (max-width: 1439px) {
+  .table__scale-ico {
+    display: none;
+
+
+  }
+}
+
+@media (max-width: 1024px) {
+  .table__scale-ico {
+
+  }
+}
+
+@media (max-width: 768px) {
+  .table__scale-ico {
+    padding-left: 117px;
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .table__scale-ico {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .table__scale-ico {
+    display: none;
+  }
+}

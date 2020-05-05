@@ -1,0 +1,35 @@
+.table__header-text {
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  /* or 133% */
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #b6bcbf;
+  margin: 0;
+  padding-bottom: 30px;
+  padding-left: 43px;
+}
+
+@media (max-width: 768px) {
+  .table__header-text {
+    padding-left: 61px;
+    padding-bottom: 27px;
+  }
+}
+
+@media (max-width: 736px) {
+  .table__header-text {
+    padding-left: 24px;
+    padding-bottom: 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .table__header-text {
+    padding-left: 24px;
+    padding-bottom: 24px;
+  }
+}

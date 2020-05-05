@@ -1,0 +1,35 @@
+.search__title {
+  font-family: robotoslab, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 64px;
+  color: #fff;
+  max-width: 608px;
+  margin: 0;
+  padding-top: 80px;
+  padding-bottom: 32px;
+}
+
+@media (max-width: 768px) {
+  .search__title {
+    font-size: 36px;
+    line-height: 40px;
+    padding-top: 40px;
+    padding-bottom: 16px;
+    max-width: 385px;
+    padding-right: 57px;
+  }
+}
+
+@media (max-width: 481px) {
+  .search__title {
+    padding-top: 5%;
+  }
+}
+
+@media (max-width: 320px) {
+  .search__title {
+    padding: 30px 16px 16px 19px;
+  }
+}

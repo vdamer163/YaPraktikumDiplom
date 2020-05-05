@@ -1,0 +1,13 @@
+@import url(../vendor/fonts.css);
+@import url(../vendor/normalize.css);
+@import url(../blocks/body/body.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/information-for-clients/information-for-clients.css);
+@import url(../blocks/technology/technology.css);
+@import url(../blocks/about-author/about-author.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/glide/glide.core.css);
+@import url(../blocks/glide/glide.theme.css);
+@import url(../blocks/search-result/search-result.css);
+@import url(../blocks/github-history/github-history.css);

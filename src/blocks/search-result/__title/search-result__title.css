@@ -1,0 +1,37 @@
+.search-result__title {
+  font-family: robotoslab, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 46px;
+  color: #1a1b22;
+  padding-top: 80px;
+  padding-bottom: 64px;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .search-result__title {
+    font-size: 30px;
+    line-height: 34px;
+    padding-top: 40px;
+    padding-bottom: 32px;
+    width: 49%;
+  }
+}
+
+
+@media (max-width: 490px) {
+  .search-result__title {
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .search-result__title {
+    padding-top: 31px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+
+  }
+}

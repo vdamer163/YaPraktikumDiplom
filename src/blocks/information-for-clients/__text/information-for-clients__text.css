@@ -1,0 +1,27 @@
+.information-for-clients__text {
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+  color: #1a1b22;
+  margin: 0;
+  max-width: 815px;
+  padding-top: 24px;
+  padding-bottom: 94px;
+}
+
+@media (max-width: 768px) {
+  .information-for-clients__text {
+    padding-top: 16px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 320px) {
+  .information-for-clients__text {
+    padding-top: 19px;
+    padding-bottom: 23px;
+  }
+}

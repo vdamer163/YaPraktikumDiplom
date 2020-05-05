@@ -1,0 +1,15 @@
+.technology__icon {
+  padding-left: 37px;
+}
+
+@media (max-width: 768px) {
+  .technology__icon {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .technology__icon {
+    padding-bottom: 30px;
+  }
+}

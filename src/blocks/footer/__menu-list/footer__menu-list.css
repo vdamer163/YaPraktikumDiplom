@@ -1,0 +1,24 @@
+.footer__menu-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 0;
+  padding-left: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+@media (max-width: 641px) {
+  .footer__menu-list {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer__menu-list {
+    flex-direction: column;
+    height: 120px;
+    padding-top: 22px;
+  }
+}

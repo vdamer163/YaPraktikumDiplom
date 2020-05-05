@@ -1,0 +1,49 @@
+.search-card__title {
+  font-family: robotoslab, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  color: #1a1b22;
+  margin: 0 auto;
+  padding-bottom: 16px;
+  width: 89%;
+}
+
+@media (max-width: 985px) {
+  .search-card__title {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 843px) {
+  .search-card__title {
+    height: 72px;
+    font-size: 22px;
+    line-height: 24px;
+    padding-bottom: 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+}
+
+@media (max-width: 768px) {
+  .search-card__title {
+    height: 72px;
+    font-size: 22px;
+    line-height: 24px;
+    padding-bottom: 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+}
+
+@media (max-width: 320px) {
+  .search-card__title {
+    height: auto;
+  }
+}

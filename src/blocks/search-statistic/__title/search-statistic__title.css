@@ -1,0 +1,29 @@
+.search-statistic__title {
+  font-family: robotoslab, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 46px;
+  /* identical to box height, or 115% */
+  margin: 0;
+  padding-top: 80px;
+  padding-bottom: 24px;
+
+}
+
+@media (max-width: 768px) {
+  .search-statistic__title {
+    padding-top: 64px;
+    font-size: 32px;
+    line-height: 34px;
+    padding-bottom: 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .search-statistic__title {
+    font-size: 30px;
+    padding-top: 0;
+    padding-bottom: 15px;
+  }
+}

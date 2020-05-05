@@ -1,0 +1,40 @@
+.search-result__list {
+  width: 86%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 64px;
+
+}
+
+@media (max-width: 1434px) {
+  .search-result__list {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 931px) {
+  .search-result__list {
+    width: 95%;
+  }
+}
+
+@media (max-width: 768px) {
+  .search-result__list {
+    width: 90%;
+    padding-bottom: 34px;
+  }
+}
+
+@media (max-width: 764px) {
+  .search-result__list {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 320px) {
+  .search-result__list {
+    width: 100%;
+    padding-bottom: 4px;
+  }
+}
+

@@ -1,0 +1,25 @@
+.footer__social-list {
+  padding-top: 30px;
+  margin: 0;
+  padding-left: 37px;
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 5%;
+}
+
+@media (max-width: 768px) {
+  .footer__social-list {
+    width: 10%;
+    padding-top: 22px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer__social-list {
+    padding-left: 55px;
+    width: 24%;
+  }
+}

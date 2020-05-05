@@ -1,0 +1,31 @@
+@import url(_one/table__mention-row_one.css);
+@import url(_two/table__mention-row_two.css);
+@import url(_three/table__mention-row_three.css);
+@import url(_four/table__mention-row_four.css);
+@import url(_five/table__mention-row_five.css);
+@import url(_six/table__mention-row_six.css);
+@import url(_seven/table__mention-row_seven.css);
+
+.table__mention-row {
+  height: 24px;
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 24px;
+  /* or 133% */
+  color: #fff;
+  padding-left: 6px;
+}
+
+@media (max-width: 768px) {
+  .table__mention-row {
+
+  }
+}
+
+@media (max-width: 320px) {
+  .table__mention-row {
+
+  }
+}

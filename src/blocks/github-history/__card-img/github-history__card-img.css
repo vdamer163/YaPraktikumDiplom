@@ -1,0 +1,16 @@
+.github-history__card-img {
+  height: 64px;
+  padding-right: 16px;
+}
+
+@media (max-width: 768px) {
+  .github-history__card-img {
+    height: 48px;
+  }
+}
+
+@media (max-width: 320px) {
+  .github-history__card-img {
+
+  }
+}

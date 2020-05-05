@@ -1,0 +1,24 @@
+.search-result__header {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .search-result__header {
+    width: 90%;
+  }
+}
+
+@media (max-width: 490px) {
+  .search-result__header {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 320px) {
+  .search-result__header {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}

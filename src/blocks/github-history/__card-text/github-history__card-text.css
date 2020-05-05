@@ -1,0 +1,9 @@
+.github-history__card-text {
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 137% */
+  max-width: 352px;
+}

@@ -1,0 +1,20 @@
+.search-result__analytic {
+  padding-bottom: 72px;
+  padding-top: 94px;
+  position: relative;
+  padding-right: 22px;
+}
+
+@media (max-width: 768px) {
+  .search-result__analytic {
+    padding-top: 48px;
+    padding-bottom: 34px;
+    padding-right: 27px;
+  }
+}
+
+@media (max-width: 320px) {
+  .search-result__analytic {
+    padding: 15px 27px 37px 12px;
+  }
+}

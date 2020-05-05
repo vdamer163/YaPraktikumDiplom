@@ -1,0 +1,19 @@
+.header__menu-item {
+  color: #b6bcbf;
+  text-decoration: none;
+  padding-bottom: 26px;
+
+
+}
+
+@media (max-width: 768px) {
+  .header__menu-item {
+    padding-bottom: 18px;
+  }
+}
+
+@media (max-width: 483px) {
+  .header__menu-item {
+    padding-bottom: 16px;
+  }
+}
