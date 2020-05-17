@@ -1,5 +1,5 @@
 .github-history__card {
-  max-height: 288px;
+  height: 288px;
   max-width: 400px;
   background: #fff;
   border-radius: 16px;
@@ -9,14 +9,14 @@
 
 @media (max-width: 768px) {
   .github-history__card {
-    max-height: 242px;
+    height: 242px;
     max-width: 336px;
   }
 }
 
 @media (max-width: 320px) {
   .github-history__card {
-    max-height: 264px;
+    height: 264px;
     max-width: 288px;
     padding: 16px;
     margin-left: 16px;

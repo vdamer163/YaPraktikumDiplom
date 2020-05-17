@@ -7,7 +7,6 @@
 @import url(_seven/table__mention-row_seven.css);
 
 .table__mention-row {
-  height: 24px;
   font-family: roboto, sans-serif;
   font-style: normal;
   font-weight: bold;

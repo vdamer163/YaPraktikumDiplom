@@ -10,7 +10,7 @@
   margin: 0;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .search-result__title {
     font-size: 30px;
     line-height: 34px;

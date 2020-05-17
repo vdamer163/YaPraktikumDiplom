@@ -1,6 +1,7 @@
 .github-history__card-img {
   height: 64px;
-  padding-right: 16px;
+border-radius: 50%;
+
 }
 
 @media (max-width: 768px) {

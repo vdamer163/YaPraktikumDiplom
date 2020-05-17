@@ -7,8 +7,17 @@
   color: #1a1b22;
   margin: 0 auto;
   width: 89%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  padding-top: 16px;
 }
-
+@media (max-width: 843px) {
+  .search-card__subtitle{
+    padding-top: 0;
+  }
+}
 @media (max-width: 768px) {
 
   .search-card__subtitle {
