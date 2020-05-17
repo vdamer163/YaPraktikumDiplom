@@ -9,9 +9,9 @@ const isDev = process.env.NODE_ENV === 'development';
 
 module.exports = {
 	entry: {
-		index: './src/js/script.js',
-		about: './src/js/about.js',
-        statistic: './src/js/statistic.js'
+		index: './src/js/index.js',
+		about: './src/js/about/index.js',
+        statistic: './src/js/analytics/index.js'
 	},
 
     output: {

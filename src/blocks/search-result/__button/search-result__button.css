@@ -12,6 +12,7 @@
   background: #fff;
   border: none;
   cursor: pointer;
+  display: none;
 }
 
 .search-result__button:hover {
