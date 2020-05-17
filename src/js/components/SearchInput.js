@@ -1,6 +1,5 @@
 export default class SearchInput {
     constructor() {
-
         this.hasError = false;
         this.form = document.forms.searchForm;
         this.input = this.form.elements.searchField;
@@ -8,7 +7,7 @@ export default class SearchInput {
 
     setEventListeners() {
         this.form.addEventListener('input', this.searchInputValidation.bind(this));
-        this.form.addEventListener('input', this.searchButtonState.bind(this));
+        //this.form.addEventListener('input', this.searchButtonState.bind(this));
     }
 
 
@@ -22,15 +21,5 @@ export default class SearchInput {
             this.hasError = true;
         }
     };
-
-    searchButtonState() {
-        const searchButton = this.form.querySelector('.search__button');
-        if (this.hasError) {
-            searchButton.setAttribute('disabled', true);
-        } else {
-            searchButton.removeAttribute('disabled');
-        }
-    };
-
 
 }

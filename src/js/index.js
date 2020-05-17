@@ -39,7 +39,7 @@ searchForm.addEventListener('submit', startSearch);
 function makeCounter() {
     let currentCount = 0;
     return function () {
-        return currentCount = currentCount + 6;
+        return currentCount = currentCount + 3;
     };
 }
 
@@ -62,11 +62,11 @@ function searchResultRender(start, end) {
         if (arrArticles.length >= 1 && arrArticles.length <= 3) {
             searchResult.classList.add('enable')
             loadingNotFound.classList.remove('enable')
-            searchResultButton.setAttribute('disabled', true);
+
         }
         if (arrArticles.length >= 3) {
             searchResult.classList.add('enable')
-            searchResultButton.removeAttribute('disabled');
+            searchResultButton.classList.add('enable')
             arrArticles = objectSearchResult.articles.slice(start, end)
         }
         for (const cardData of arrArticles) {
@@ -76,15 +76,22 @@ function searchResultRender(start, end) {
         }
         newsCardList.render();
         if (objectSearchResult.totalResults === cardList.childElementCount) {
-            searchResultButton.setAttribute('disabled', true);
+            searchResultButton.classList.remove('enable')
         }
+        if (cardList.childElementCount == pageSize) {
+            searchResultButton.classList.remove('enable')
+        }
+
     }
+
 }
 
 window.onload = () => {
     searchResultRender(0, 3);
     loadingNotFound.classList.remove('enable')
     loadingNotFoundError.classList.remove('enable')
+    searchField.value = dataStorage.getItem('searchField')
+
 }
 
 function startSearch(event) {
@@ -108,7 +115,6 @@ function startSearch(event) {
             throw err;
 
         });
-    searchForm.reset();
 }
 
 
