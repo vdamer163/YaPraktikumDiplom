@@ -9,7 +9,7 @@
   <meta content="Страница Анализа новостей" name="description">
   <meta content="HTML5, CSS, JS, WebPack" name="keywords">
   <meta content="Дамер Виктор" name="author">
-  <link href="./css/index.1c5fa75a19fbfb6d0f71.css" rel="stylesheet">
+  <link href="./css/index.3021a3031c081f73b0e4.css" rel="stylesheet">
   <link href="./images/favicon.png" rel="icon" type="image/png">
 </head>
 <body class="body">
@@ -30,10 +30,10 @@
     <h1 class="search__title">Что в мире творится?</h1>
     <p class="search__text">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую
       неделю.</p>
-    <form class="search__field" id="search">
-      <input class="search__input" maxlength="30" minlength="2" name="search" placeholder="Введите тему новости"
+    <form class="search__field" name="searchForm" id="searchForm">
+      <input class="search__input" maxlength="30" minlength="2" name="searchField" placeholder="Введите тему новости"
              required type="text">
-      <button class="search__button" form="search" type="submit">Искать</button>
+      <button class="search__button" >Искать</button>
     </form>
   </section>
 
@@ -49,82 +49,21 @@
     <p class="loading__subtitle subtitle">К сожалению по вашему запросу ничего не найдено.</p>
   </section>
 
-  <section class="search-result enable">
+  <section class="loading__not-found loading__not-found_error">
+    <p class="loading__subtitle subtitle"><br><br>Во время запроса произошла ошибка. Возможно, проблема с соединением или сервер недоступен.
+      Подождите немного и попробуйте ещё раз</p>
+  </section>
+
+  <section class="search-result">
     <div class="search-result__header">
-      <h2 class="search-result__title title">Результаты поиска</h2>
+      <h2 class="search-result__title">Результаты поиска</h2>
       <div class="search-result__analytic">
         <a class="search-result__analytic-text" href="./statistic.html">Посмотреть аналитику</a>
         <img alt=">" class="search-result__analytic-arrow" src="./images/arrow.svg">
       </div>
     </div>
     <div class="search-result__list">
-      <div class="search-card">
-        <a href="#" target="_blank" class="search-card__content">
-          <img alt="Photo of news" class="search-card__image" src="./images/img_news.png">
-          <p class="search-card__date">2 августа, 2019</p>
-          <h2 class="search-card__title title">Национальное достояние – парки</h2>
-          <p class="search-card__subtitle subtitle">В 2016 году Америка отмечала важный юбилей: сто лет назад
-            здесь начала складываться система национальных парков – охраняемых территорий,
-            где и сегодня каждый может приобщиться к природе.</p>
-        </a>
-        <a class="search-card__source" href="#">Лента.ру</a>
-      </div>
 
-      <div class="search-card">
-        <a href="#" target="_blank" class="search-card__content">
-          <img alt="Photo of news" class="search-card__image" src="./images/img_news_2.png">
-          <p class="search-card__date">2 августа, 2019</p>
-          <h2 class="search-card__title title">Лесные огоньки: история одной фотографии</h2>
-          <p class="search-card__subtitle subtitle">Фотограф отвлеклась от освещения суровой политической реальности
-            Мексики,
-            чтобы запечатлеть ускользающую красоту одного из местных чудес природы.</p>
-        </a>
-        <a class="search-card__source" href="#">Медуза</a>
-      </div>
-      <div class="search-card">
-        <a href="#" target="_blank" class="search-card__content">
-          <img alt="Photo of news" class="search-card__image" src="./images/img_news_3.png">
-          <p class="search-card__date">2 августа, 2019</p>
-          <h2 class="search-card__title title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h2>
-          <p class="search-card__subtitle subtitle">Знаменитый фотограф снимает первозданные леса России, чтобы
-            рассказать о необходимости их сохранения.
-            В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
-        </a>
-        <a class="search-card__source" href="#">Риа</a>
-      </div>
-        <!--
-                      <div class="search-card">
-                          <a href="#" target="_blank" class="search-card__content">
-                              <img alt="Photo of news" class="search-card__image" src="./images/img_news_4.png">
-                              <p class="search-card__date">2 августа, 2019</p>
-                              <h2 class="search-card__title title">Национальное достояние – парки</h2>
-                              <p class="search-card__subtitle subtitle">В 2016 году Америка отмечала важный юбилей: сто лет назад
-                                  здесь начала складываться система национальных парков – охраняемых территорий,
-                                  где и сегодня каждый может приобщиться к природе.</p>
-                          </a>
-                          <a href="#" class="search-card__source">Дзен</a>
-                      </div>
-                      <div class="search-card">
-                        <a href="#" target="_blank" class="search-card__content">
-                              <img alt="Photo of news" class="search-card__image" src="./images/img_news_5.png">
-                              <p class="search-card__date">2 августа, 2019</p>
-                              <h2 class="search-card__title title">Лесные огоньки: история одной фотографии</h2>
-                              <p class="search-card__subtitle subtitle">Фотограф отвлеклась от освещения суровой политической реальности Мексики,
-                                  чтобы запечатлеть ускользающую красоту одного из местных чудес природы.</p>
-                          </a>
-                          <a href="#" class="search-card__source">Афиша</a>
-                      </div>
-                      <div class="search-card">
-                        <a href="#" target="_blank" class="search-card__content">
-                              <img alt="Photo of news" class="search-card__image" src="./images/img_news_6.png">
-                              <p class="search-card__date">2 августа, 2019</p>
-                              <h2 class="search-card__title title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h2>
-                              <p class="search-card__subtitle subtitle">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения.
-                                  В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
-                          </a>
-                          <a href="#" class="search-card__source">Медиазона</a>
-                      </div>
-                  -->
     </div>
     <button class="search-result__button">Показать еще</button>
   </section>
@@ -169,7 +108,7 @@
     </ul>
   </footer>
 </div>
-<script src="./js/index.d69286c2e3df796e9c29.js"></script>
+<script src="./js/index.9d7aa4526860945b8e2e.js"></script>
 </body>
 
 
