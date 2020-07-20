@@ -50,7 +50,7 @@
     "babel-polyfill": "6.26.0",
     "core-js": "3.4.1",
     "css-loader": "3.5.2",
-    "lodash": "4.17.15",
+    "lodash": "4.17.19",
     "webpack-md5-hash": "0.0.6"
   }
 }
